@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"objExample","order":2,"path":"objects/objExample/objExample.yy",},
+    {"name":"fnsHyperPalette","order":5,"path":"scripts/fnsHyperPalette/fnsHyperPalette.yy",},
+    {"name":"shdHyperPalette","order":3,"path":"shaders/shdHyperPalette/shdHyperPalette.yy",},
+    {"name":"sprHyperPalette","order":1,"path":"sprites/sprHyperPalette/sprHyperPalette.yy",},
+  ],
+}

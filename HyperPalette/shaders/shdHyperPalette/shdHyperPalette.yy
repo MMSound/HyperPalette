@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdHyperPalette",
+  "name":"shdHyperPalette",
+  "parent":{
+    "name":"HyperPalette",
+    "path":"HyperPalette.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

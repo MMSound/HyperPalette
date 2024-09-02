@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fnsHyperPalette",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fnsHyperPalette",
+  "parent":{
+    "name":"HyperPalette",
+    "path":"HyperPalette.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
