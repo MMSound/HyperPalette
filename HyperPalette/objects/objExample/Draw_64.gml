@@ -15,7 +15,7 @@ else
 }
 
 //draw "correct" palette laid out in the same way as the example sprite - you do not need this yourself
-var _factor = 4;
+/*var _factor = 4;
 for (var i = 0; i < HYPERPAL_MAX_PALETTES; i++)
 {
 	for (var j = 0; j < HYPERPAL_MAX_COLORS; j++)
@@ -25,7 +25,7 @@ for (var i = 0; i < HYPERPAL_MAX_PALETTES; i++)
 		var _x = 96;
 		draw_rectangle_color((_x + (i * _factor)), (y + (j * _factor)), ((_x + ((i + 1) * _factor)) - 1), ((y + ((j + 1) * _factor)) - 1), _col, _col, _col, _col, false);
 	}
-}
+}*/
 
 //draw fps - you also do not need this yourself
-draw_text(156, 160, fps_real);
+draw_text(156, 160, $"{fps}\n{fps_real}");
