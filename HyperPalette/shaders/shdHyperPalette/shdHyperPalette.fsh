@@ -23,7 +23,7 @@ void main()
 	int index = int((grayCol * 255.0) / float(divCol)); 
 	index += int(((float(oldCol.r != 0.0) * 1.0) + (float(oldCol.g != 0.0) * 2.0) + (float(oldCol.b != 0.0) * 4.0)) * (float(maxCol) * float(avg < 3))); //shift with normal colors - last check here lets us know if our index is actually on palette 0 and if so do not shift
 	
-	gl_FragColor = vec4(paletteR[index], paletteG[index], paletteB[index], v_vColour.a);   
+	gl_FragColor = vec4(paletteR[index], paletteG[index], paletteB[index], oldCol.a);   
 }
 
 /*

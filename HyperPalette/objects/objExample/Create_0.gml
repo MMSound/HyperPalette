@@ -5,6 +5,8 @@ doShader = true;
 
 window_set_size((320 * 3), (240 * 3));
 
+instance_create_depth(0, 0, 0, objDemo1);
+
 /*
 	hello everyone!
 	in here, i've set up the palette for my own testing purposes.

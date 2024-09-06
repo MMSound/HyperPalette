@@ -1,9 +1,13 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Demo 1","order":6,"path":"folders/Demo 1.yy",},
+  ],
   "ResourceOrderSettings":[
+    {"name":"objDemo1","order":2,"path":"objects/objDemo1/objDemo1.yy",},
     {"name":"objExample","order":2,"path":"objects/objExample/objExample.yy",},
     {"name":"fnsHyperPalette","order":5,"path":"scripts/fnsHyperPalette/fnsHyperPalette.yy",},
     {"name":"shdHyperPalette","order":3,"path":"shaders/shdHyperPalette/shdHyperPalette.yy",},
     {"name":"sprHyperPalette","order":1,"path":"sprites/sprHyperPalette/sprHyperPalette.yy",},
+    {"name":"sprMegaMan","order":1,"path":"sprites/sprMegaMan/sprMegaMan.yy",},
   ],
 }
