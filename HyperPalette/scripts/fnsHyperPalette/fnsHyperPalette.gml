@@ -50,8 +50,8 @@ function hyperpalette_init(_rand = false)
 /// @description change a color on the palette - nothing is preventing you from modifying them directly but hopefully this makes them simpler
 function hyperpalette_change_color(_new = #FFFFFF, _col = 0, _pal = 0)
 {
-	_pal = clamp(_pal, 0, HYPERPAL_MAX_PALETTES);
-	_col = clamp(_col, 0, HYPERPAL_MAX_COLORS);
+	_pal = clamp(_pal, 0, (HYPERPAL_MAX_PALETTES - 1));
+	_col = clamp(_col, 0, (HYPERPAL_MAX_COLORS - 1));
 	global.colorPaletteR[_col + (_pal * HYPERPAL_MAX_COLORS)] = (color_get_red(_new) / 255);
 	global.colorPaletteG[_col + (_pal * HYPERPAL_MAX_COLORS)] = (color_get_green(_new) / 255);
 	global.colorPaletteB[_col + (_pal * HYPERPAL_MAX_COLORS)] = (color_get_blue(_new) / 255);
